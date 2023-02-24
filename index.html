@@ -17,7 +17,7 @@
     />
   </head>
   <body>
-    <div class="header">
+    <div class="header" id="top">
       <div class="container-header-top">
         <div class="header-logo">
           <img
@@ -28,19 +28,18 @@
           <h1 class="logo-title">Jerry's Pizza</h1>
         </div>
         <div class="header-links">
-          <a href="" class="link-one">Header link one</a>
-          <a href="" class="link-two">Header link two</a>
-          <a href="" class="link-three">Header link three</a>
+          <a href="#middle" class="link-one">Menu</a>
+          <a href="#quote" class="link-two">About us</a>
+          <a href="#order" class="link-three">Contact</a>
         </div>
       </div>
       <div class="container-header-middle">
         <div class="hero">
-          <h1 class="hero-header">This website is awesome</h1>
+          <h1 class="hero-header">Best Pizza in Town</h1>
           <p class="hero-description">
-            Lorem ipsum dolor sit amet, quis velit elit consectetur pariatur
-            pariatur ex pariatur deserunt sunt tempor aliqua reprehenderit amet
-            nulla culpa. Irure consequat eiusmod ad ad eu officia dolore laborum
-            nulla eiusmod Lorem reprehenderit id eu eiusmod.
+            Come to our Ontario pizzeria for classic thin-crust New York-style,
+            deep-dish Chicago-style, or tangy BBQ pizzas with meats and veggies.
+            Dine-in or takeout. Experience the best pizza in town!
           </p>
           <button class="sign-up">Sign up</button>
         </div>
@@ -49,41 +48,74 @@
           src="images/pizzeria-interior.png"
           alt="inside of a jerry's pizza"
         />
-    </div>
-</div>
-<div class="middle-container">
-  <h1 class="middle-header">Our selection of pizza.</h1>
-  <div class="middle-images">
-    <div class="img-desc">
-    <img src="images/new-york-pizza.jpg" alt="new york pizza" />
-    <p class="desc">
-        This is some subtext under an image or illustration
-      </p>
-    </div>
-    <div class="img-desc">
-    <img src="images/chicago-pizza.jpg" alt="chicago style pizza" />
-    <p class="desc">
-        This is some subtext under an image or illustration
-      </p>
       </div>
-      <div class="img-desc">
-    <img src="images/bbq-pizza.jpg" alt="bbq pizza" />
-    <p class="desc">
-        This is some subtext under an image or illustration
-      </p>
+    </div>
+    <div class="middle-container" id="middle">
+      <h1 class="middle-header">Our selection of pizza.</h1>
+      <div class="middle-images">
+        <div class="img-desc">
+          <img src="images/new-york-pizza.jpg" alt="new york pizza" />
+          <p class="desc">
+            <span class="bold">New York-style pizza:</span> a thin-crust pizza
+            with a crispy exterior and chewy interior, tangy sauce, and a
+            special blend of melted cheeses. Served in large triangular slices,
+            it's an iconic and delicious food of the city.
+          </p>
+        </div>
+        <div class="img-desc">
+          <img src="images/chicago-pizza.jpg" alt="chicago style pizza" />
+          <p class="desc">
+            <span class="bold">Chicago-style pizza:</span> deep-dish with thick,
+            buttery crust, piled high with toppings such as Italian sausage,
+            pepperoni, onions, peppers, and mushrooms. Rich sauce and cheese
+            blend for a hearty and indulgent meal, perfect for sharing. An
+            iconic dish of Chicago cuisine.
+          </p>
+        </div>
+        <div class="img-desc">
+          <img src="images/bbq-pizza.jpg" alt="bbq pizza" />
+          <p class="desc">
+            <span class="bold">BBQ pizza:</span> tangy BBQ sauce base, topped
+            with meats like chicken, pulled pork or beef, red onions, peppers,
+            and melted cheese. Smoky flavor, crispy or chewy crust. Perfect for
+            summer barbecues or cozy nights in, loved by all.
+          </p>
+        </div>
       </div>
-  </div>
-<div class="quote-background-container">
+      <div class="quote-background-container">
+        <div class="quote-container" id="quote">
+          <p class="quote">
+            "Pizza is not just food, it's a way of life. It's a comfort in
+            difficult times, a celebration in happy times, and a symbol of
+            togetherness that transcends cultural boundaries. A great pizza is a
+            work of art, made with love and creativity. It's a perfect balance
+            of flavors and textures, a harmony of ingredients that come together
+            to create something truly special. Pizza is more than just a dish,
+            it's a passion, and we are proud to share that passion with you."
+          </p>
+          <p class="quote-author">- Jerry</p>
+        </div>
+      </div>
+    </div>
 
-    <div class="quote-container">
-        <p class="quote">"Pizza is not just food, it's a way of life. It's a comfort in difficult times, a celebration in happy times, and a symbol of togetherness that transcends cultural boundaries. A great pizza is a work of art, made with love and creativity. It's a perfect balance of flavors and textures, a harmony of ingredients that come together to create something truly special. Pizza is more than just a dish, it's a passion, and we are proud to share that passion with you." 
-        </p>
-        <p class="quote-author">
-            - Jerry
-        </p>
+    <div class="contact-parent-container">
+      <div class="contact-container" id="order">
+        <div class="contact-order">
+          <div class="contact-info">
+            <h1 class="contact-header">Order your pizza now!</h1>
+            <p class="contact-desc">
+              Just press the "Order Now" button to get free instant delivery!
+            </p>
+          </div>
+          <button class="order-button">Order Now</button>
+        </div>
+      </div>
     </div>
+
+    <div class="footer">
+      <p class="copyright">Copyright © Jerry's Pizza 2023</p>
+      <br />
+      <a class="back-to-top" href="#top">Back to top</a>
     </div>
-    
-    
-</body>
+  </body>
 </html>
